@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pavithra | Java Full Stack Developer</title>
+  <link rel="stylesheet" href="MyBioGit.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">Pavithra </span>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="menu-btn" onclick="toggleMenu()">
+      <i class="ti ti-menu-2"></i>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about"      onclick="toggleMenu()">About</a>
+    <a href="#skills"     onclick="toggleMenu()">Skills</a>
+    <a href="#experience" onclick="toggleMenu()">Experience</a>
+    <a href="#projects"   onclick="toggleMenu()">Projects</a>
+    <a href="#contact"    onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="avatar">PG</div>
+    <div class="hero-text">
+      <h1>Pavithra</h1>
+      <p class="hero-sub">Java Full Stack Developer &nbsp;·&nbsp; 4+ years at Flipkart &nbsp;·&nbsp; M.S. CS @ Southern Arkansas University</p>
+      <div class="badges">
+        <span class="badge blue">Java</span>
+        <span class="badge blue">Terraform</span>
+        <span class="badge blue">Spring Boot</span>
+        <span class="badge blue">React.js</span>
+        <span class="badge blue">Azure</span>
+        <span class="badge blue">Kubernetes</span>
+        <span class="badge green">Open to work</span>
+      </div>
+      <div class="social-row">
+        <a class="social-btn" href="https://github.com/Pavithragp" target="_blank">
+          <i class="ti ti-brand-github"></i> GitHub
+        </a>
+        <a class="social-btn" href="https://www.linkedin.com/in/pavithra-guntur-prabhakar/?skipRedirect=true" target="_blank">
+          <i class="ti ti-brand-linkedin"></i> LinkedIn
+        </a>
+        <a class="social-btn" href="mailto:pavithragp24@gmail.com">
+          <i class="ti ti-mail"></i> Email
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-title">About me</div>
+    <p class="about-text">
+      Full stack developer with 4+ years of experience building scalable microservices and
+      responsive web applications at Flipkart, one of India's largest e-commerce platforms.
+      Passionate about clean architecture, cloud-native systems, and shipping features that
+      serve millions of users. Currently pursuing an M.S. in Computer Science at Southern
+      Arkansas University (GPA 3.4/4.0), deepening expertise in distributed systems and AI/ML.
+    </p>
+  </section>ƒ
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-title">Skills &amp; expertise</div>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <i class="ti ti-server"></i> Backend
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Spring Boot</span>
+          <span class="skill-tag">Spring MVC</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express.js</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">GraphQL</span>
+          <span class="skill-tag">Microservices</span>
+          <span class="skill-tag">JWT</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <i class="ti ti-layout"></i> Frontend
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">React.js</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">Redux</span>
+          <span class="skill-tag">React Router</span>
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">Bootstrap</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <i class="ti ti-cloud"></i> Cloud &amp; DevOps
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Azure</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">Terraform</span>
+          <span class="skill-tag">Jenkins</span>
+          <span class="skill-tag">PCF</span>
+          <span class="skill-tag">CI/CD</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <i class="ti ti-database"></i> Databases
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">SQL Server</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Redis</span>
+          <span class="skill-tag">Mongoose</span>
+          <span class="skill-tag">Flyway</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <i class="ti ti-activity"></i> Messaging &amp; Monitoring
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Apache Kafka</span>
+          <span class="skill-tag">Splunk</span>
+          <span class="skill-tag">Grafana</span>
+          <span class="skill-tag">Dynatrace</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <i class="ti ti-test-pipe"></i> Testing
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">JUnit</span>
+          <span class="skill-tag">Mocha</span>
+          <span class="skill-tag">Chai</span>
+          <span class="skill-tag">Selenium</span>
+          <span class="skill-tag">Postman</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-title">Experience</div>
+
+    <div class="exp-item">
+      <div class="exp-dot-col">
+        <div class="exp-dot"></div>
+        <div class="exp-line"></div>
+      </div>
+      <div class="exp-content">
+        <div class="exp-title">Java Full Stack Developer</div>
+        <div class="exp-company">Flipkart India Pvt. Ltd.</div>
+        <div class="exp-date">
+          <i class="ti ti-calendar"></i> Oct 2020 – Jul 2024 &nbsp;·&nbsp;
+          <i class="ti ti-map-pin"></i> Bengaluru, India
+        </div>
+        <ul class="exp-bullets">
+          <li>Built scalable microservices with Spring Boot and Node.js deployed on Azure and AWS, serving millions of daily requests.</li>
+          <li>Designed REST and GraphQL APIs with JWT authentication and RBAC authorization.</li>
+          <li>Provisioned Azure infrastructure using Terraform; managed secrets securely via Azure Key Vault.</li>
+          <li>Built Kafka event-driven pipelines handling 20,000+ events/sec during Big Billion Days.</li>
+          <li>Containerized services with Docker, deployed on Kubernetes (EKS) and Pivotal Cloud Foundry.</li>
+          <li>Built React.js SPAs with TypeScript, Redux, and React Router used across multiple product squads.</li>
+          <li>Set up Jenkins CI/CD pipelines, Splunk dashboards, and Grafana/Dynatrace monitoring.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item last">
+      <div class="exp-dot-col">
+        <div class="exp-dot"></div>
+      </div>
+      <div class="exp-content">
+        <div class="exp-title">Software Developer Intern</div>
+        <div class="exp-company">Flipkart India Pvt. Ltd.</div>
+        <div class="exp-date">
+          <i class="ti ti-calendar"></i> Aug 2019 – Oct 2020 &nbsp;·&nbsp;
+          <i class="ti ti-map-pin"></i> Bengaluru, India
+        </div>
+        <ul class="exp-bullets">
+          <li>Built responsive UI pages using HTML5, CSS3, React.js, and Bootstrap.</li>
+          <li>Developed Node.js REST APIs with JWT authentication and MongoDB schema design.</li>
+          <li>Wrote unit tests using Mocha and Chai; participated in Agile sprint ceremonies.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-title">Key projects</div>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <div class="project-icon"><i class="ti ti-database"></i></div>
+        <div class="project-title">Cloud Data Pipeline</div>
+        <div class="project-desc">
+          End-to-end ETL workflow using AWS S3, Lambda, and Redshift to collect,
+          transform, and visualize sales data in Power BI dashboards.
+        </div>
+        <div class="project-tags">
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Redshift</span>
+          <span class="skill-tag">Power BI</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon"><i class="ti ti-heart-rate-monitor"></i></div>
+        <div class="project-title">AIoT Cardiac Detection</div>
+        <div class="project-desc">
+          Wearable IoT system integrating AI for early cardiac arrest detection
+          using a federated data architecture to preserve patient privacy.
+        </div>
+        <div class="project-tags">
+          <span class="skill-tag">IoT</span>
+          <span class="skill-tag">AI/ML</span>
+          <span class="skill-tag">Federated</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon"><i class="ti ti-brain"></i></div>
+        <div class="project-title">Federated Learning Framework</div>
+        <div class="project-desc">
+          Privacy-preserving CNN model for distributed data classification
+          in healthcare IoT — no raw data transfer required.
+        </div>
+        <div class="project-tags">
+          <span class="skill-tag">CNN</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Healthcare</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section">
+    <div class="section-title">Certifications</div>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <i class="ti ti-certificate cert-icon"></i>
+        <span class="cert-name">Microsoft Azure AI Fundamentals</span>
+      </div>
+      <div class="cert-card">
+        <i class="ti ti-certificate cert-icon"></i>
+        <span class="cert-name">AWS Certified Cloud Practitioner</span>
+      </div>
+      <div class="cert-card">
+        <i class="ti ti-certificate cert-icon"></i>
+        <span class="cert-name">HashiCorp Terraform Associate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-degree">M.S. Computer and Information Science</div>
+        <div class="edu-school"><i class="ti ti-school"></i> Southern Arkansas University, USA</div>
+        <div class="edu-date"><i class="ti ti-calendar"></i> Aug 2024 – Present &nbsp;·&nbsp; GPA: 3.4 / 4.0</div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-degree">B.E. Electronics and Communication Engineering</div>
+        <div class="edu-school"><i class="ti ti-school"></i> Visvesvaraya Technological University, India</div>
+        <div class="edu-date"><i class="ti ti-calendar"></i> Aug 2016 – Aug 2020</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-title">Contact</div>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:pavithragp24@gmail.com">
+        <i class="ti ti-mail"></i>
+        <span>pavithragp24@gmail.com</span>
+      </a>
+      <a class="contact-card" href="https://www.linkedin.com/in/pavithra-guntur-prabhakar/?skipRedirect=true" target="_blank">
+        <i class="ti ti-brand-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      <a class="contact-card" href="https://github.com/Pavithragp" target="_blank">
+        <i class="ti ti-brand-github"></i>
+        <span>GitHub</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span class="footer-text">© 2025 Pavithra · Bengaluru, India</span>
+    <div class="footer-links">
+      <a href="https://github.com/Pavithragp"   target="_blank"><i class="ti ti-brand-github"></i></a>
+      <a href="https://www.linkedin.com/in/pavithra-guntur-prabhakar/?skipRedirect=true" target="_blank"><i class="ti ti-brand-linkedin"></i></a>
+      <a href="mailto:pavithragp24@gmail.com"><i class="ti ti-mail"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const m = document.getElementById('mobileMenu');
+      m.classList.toggle('open');
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+
+</body>
+</html>
